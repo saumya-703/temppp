@@ -1,0 +1,549 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+body{ 
+    width: 100%;
+    height: 100vh;
+    background: url("image/black.png") no-repeat  center;
+    background-size: cover;
+}
+.navbar{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar h2{
+    margin-bottom:8px;
+    font-style: normal;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 36px;
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 34px;
+    color: #878A8F;
+}
+.navbar p{
+    position: absolute;
+    margin-top: 72px;
+    width: 200px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.3em;
+    margin-left: 36px;
+    color: #878A8F;
+}
+.navbar ul li{
+    text-align: right;
+    padding-top: 46px;
+}
+.navbar ul li img{
+    margin-right: 36px;
+}
+h4{
+    top: 180px;
+    margin-left:50%;
+    position: absolute;
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 36px;
+letter-spacing: 0.2em;
+color: #A2A2A2;
+}
+.all{
+    position: absolute;
+    text-align: center;
+    left: 40%;
+    top: 220px;
+    z-index: 99;
+}
+.all ul li{
+    list-style: none;
+}
+#about{
+    background: none;
+    border: none;
+    padding-top: 20px;
+    color: #696D75;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 85px;
+}
+#exp{
+    padding-top: 20px;
+    color: #696D75;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 85px;
+    background: none;
+    border: none;
+}
+#port{
+    padding-top: 20px;
+    color: #696D75;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 85px;
+    background: none;
+    border: none;
+}
+#cont{
+    padding-top: 20px;
+    color: #696D75;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 85px;
+    background: none;
+    border: none;
+    background: none;
+    border: none;
+}
+#about:hover{
+    color: #ffffff;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 85px;
+}
+#exp:hover{
+    color: #ffffff;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 85px;
+}
+#port:hover{
+    color: #ffffff;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 85px;
+}
+#cont:hover{
+    color: #ffffff;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 85px;
+}
+#about:not(.is-active):hover::after{
+    left: -100px;
+    top:-42px;
+    content:'';
+    position: absolute;
+    height: 50%;
+    width:8px;
+    border-radius: 8px;
+    transform: rotate(90deg);
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+#exp:not(.is-active):hover::after{
+    left: -130px;
+    top:62px;
+    content:'';
+    position: absolute;
+    height: 50%;
+    width:8px;
+    border-radius: 8px;
+    transform: rotate(90deg);
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+#port:not(.is-active):hover::after{
+    left: -90px;
+    top:172px;
+    content:'';
+    position: absolute;
+    height:50%;
+    width:8px;
+    border-radius: 8px;
+    transform: rotate(90deg);
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+#cont:not(.is-active):hover::after{
+    left: -80px;
+    top:272px;
+    content:'';
+    position: absolute;
+    height: 50%;
+    width:8px;
+    border-radius: 8px;
+    transform: rotate(90deg);
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+@media only screen and (max-width: 480px){
+    body{
+        background: url("image/black.png") no-repeat  center;
+        background-size: cover;
+        width: 100%;
+        height: 120vh;
+    }
+    .navbar h2{
+        margin-bottom:4px;
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 570;
+        line-height: 36px;
+        position: absolute;
+        margin-top: 36px;
+        margin-left: 18px;
+        color: #878A8F;
+    }
+    .navbar p{
+        position: absolute;
+        width: 200px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.3em;
+        margin-left: 19px;
+        color: #878A8F;
+    }
+    .navbar ul li{
+        text-align: right;
+        padding-top: 46px;
+    }
+    .navbar ul li img{
+        margin-right: 36px;
+    }
+    h4{
+        top: 180px;
+        margin-left:45%;
+        position: absolute;
+        font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.2em;
+    color: #A2A2A2;
+    }
+    .all{
+        position: absolute;
+        left:25%;
+        top: 220px;
+    }
+    .all ul li{
+        list-style: none;
+        text-align: center;
+    }
+    #about{
+        background: none;
+        border: none;
+        padding-top: 20px;
+        color: #696D75;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 85px;
+    }
+    #exp{
+        padding-top: 20px;
+        color: #696D75;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 85px;
+        background: none;
+        border: none;
+    }
+    #port{
+        padding-top: 20px;
+        color: #696D75;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 85px;
+        background: none;
+        border: none;
+    }
+    #cont{
+        padding-top: 20px;
+        color: #696D75;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 85px;
+        background: none;
+        border: none;
+        background: none;
+        border: none;
+    }
+    #about:hover{
+        color: #ffffff;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 85px;
+    }
+    #exp:hover{
+        color: #ffffff;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 85px;
+    }
+    #port:hover{
+        color: #ffffff;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 85px;
+    }
+    #cont:hover{
+        color: #ffffff;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 85px;
+    }
+    #about:not(.is-active):hover::after{
+        content:'';
+        position: absolute;
+        height: 50%;
+        width:8px;
+        border-radius: 8px;
+        transform: rotate(90deg);
+        background-color: #ffffff;
+        transition: 0.3s;
+    }
+    #exp:not(.is-active):hover::after{
+        content:'';
+        position: absolute;
+        height: 50%;
+        width:8px;
+        border-radius: 8px;
+        transform: rotate(90deg);
+        background-color: #ffffff;
+        transition: 0.3s;
+    }
+    #port:not(.is-active):hover::after{
+        content:'';
+        position: absolute;
+        height:50%;
+        width:8px;
+        border-radius: 8px;
+        transform: rotate(90deg);
+        background-color: #ffffff;
+        transition: 0.3s;
+    }
+    #cont:not(.is-active):hover::after{
+        content:'';
+        position: absolute;
+        height: 50%;
+        width:8px;
+        border-radius: 8px;
+        transform: rotate(90deg);
+        background-color: #ffffff;
+        transition: 0.3s;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width:481px){
+    .navbar h2{
+        margin-bottom:8px;
+        font-style: normal;
+        font-size: 34px;
+        font-weight: 500;
+        line-height: 36px;
+        position: absolute;
+        margin-top: 36px;
+        margin-left: 34px;
+        color: #878A8F;
+    }
+    .navbar p{
+        position: absolute;
+        margin-top: 72px;
+        width: 200px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.3em;
+        margin-left: 36px;
+        color: #878A8F;
+    }
+    .navbar ul li{
+        text-align: right;
+        padding-top: 46px;
+    }
+    .navbar ul li img{
+        margin-right: 36px;
+    }
+    h4{
+        top: 180px;
+        margin-left:50%;
+        position: absolute;
+        font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.2em;
+    color: #A2A2A2;
+    }
+    .all{
+        position: absolute;
+        text-align: center;
+        left: 30%;
+        top: 220px;
+    }
+    .all ul li{
+        list-style: none;
+    }
+    #about{
+        background: none;
+        border: none;
+        padding-top: 20px;
+        color: #696D75;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 85px;
+    }
+    #exp{
+        padding-top: 20px;
+        color: #696D75;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 85px;
+        background: none;
+        border: none;
+    }
+    #port{
+        padding-top: 20px;
+        color: #696D75;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 85px;
+        background: none;
+        border: none;
+    }
+    #cont{
+        padding-top: 20px;
+        color: #696D75;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 85px;
+        background: none;
+        border: none;
+        background: none;
+        border: none;
+    }
+    #about:hover{
+        color: #ffffff;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 85px;
+    }
+    #exp:hover{
+        color: #ffffff;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 85px;
+    }
+    #port:hover{
+        color: #ffffff;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 85px;
+    }
+    #cont:hover{
+        color: #ffffff;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 85px;
+    }
+    #about:not(.is-active):hover::after{
+        left: -100px;
+        top:-42px;
+        content:'';
+        position: absolute;
+        height: 50%;
+        width:8px;
+        border-radius: 8px;
+        transform: rotate(90deg);
+        background-color: #ffffff;
+        transition: 0.3s;
+    }
+    #exp:not(.is-active):hover::after{
+        left: -130px;
+        top:62px;
+        content:'';
+        position: absolute;
+        height: 50%;
+        width:8px;
+        border-radius: 8px;
+        transform: rotate(90deg);
+        background-color: #ffffff;
+        transition: 0.3s;
+    }
+    #port:not(.is-active):hover::after{
+        left: -90px;
+        top:172px;
+        content:'';
+        position: absolute;
+        height:50%;
+        width:8px;
+        border-radius: 8px;
+        transform: rotate(90deg);
+        background-color: #ffffff;
+        transition: 0.3s;
+    }
+    #cont:not(.is-active):hover::after{
+        left: -80px;
+        top:272px;
+        content:'';
+        position: absolute;
+        height: 50%;
+        width:8px;
+        border-radius: 8px;
+        transform: rotate(90deg);
+        background-color: #ffffff;
+        transition: 0.3s;
+    }
+}

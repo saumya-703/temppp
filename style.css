@@ -1,0 +1,1637 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #ffffff url(813.gif)no-repeat center;
+    z-index:10;
+}
+#navbar{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+#navbar h2{
+    margin-bottom:8px;
+    font-style: normal;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 36px;
+    position: absolute;
+    margin-top: 36px;
+    margin-left: 34px;
+    color: #000000;
+}
+#navbar p{
+    position: absolute;
+    margin-top: 72px;
+    width: 200px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.3em;
+    margin-left: 36px;
+    color: #000000;
+}
+.landing{
+position: absolute;
+width: 309px;
+height: 36px;
+left: 68px;
+top: 230px;
+}
+.menu ul li{
+    text-align: right;
+    padding-top:46px;
+    padding-right: 34px;
+}
+.landing h4{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 36px;
+letter-spacing: 0.2em;
+color: #A2A2A2;
+}
+.landing h1{
+width: 837px;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 70px;
+line-height: 87px;
+color: #000000;
+margin-top: 13px;
+}
+.landing h3{
+position: absolute;
+width: 826px;
+height: 108px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 145.02%;
+margin-top: 40px;
+color: #727272;
+}
+.learn{
+position: absolute;
+width: 300px;
+height: 70px;
+top: 675px;
+left: 68px;
+background: #000000;
+border-radius: 12px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 29px;
+border: none;
+}
+.fmail{
+    margin-top: 690px ;
+    margin-left:70px;
+}
+.Damian{
+    margin-left: 1000px;
+    margin-top: -2500px;
+    width: 500px;
+    position :realtive;
+    filter: grayscale(100%);
+}
+@media only screen and (max-width: 480px){
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin:0;
+        padding:0;
+    }
+    #navbar h2{
+        margin-bottom:4px;
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 570;
+        line-height: 36px;
+        position: absolute;
+        margin-top: 36px;
+        margin-left: 18px;
+        color: #000000;
+    }
+    #navbar p{
+        position: absolute;
+        width: 200px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.3em;
+        margin-left: 19px;
+        color: #000000;
+    }
+    .landing{
+        position: absolute;
+        width: 309px;
+        height: 36px;
+        left: 10px;
+        top: 200px;
+        }
+    .landing h4{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 36px;
+        letter-spacing: 0.2em;
+        color: #A2A2A2;
+        }
+    .landing h1{
+            width: 345px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 35px;
+            line-height: 47px;
+            color: #000000;
+            margin-top: 13px;
+            }
+            .landing h3{
+                position: absolute;
+                width:auto;
+                height: 108px;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 500;
+                font-size:16px;
+                line-height:165%;
+                margin-top: 40px;
+                color: #727272;
+                } 
+            .learn{
+                    position: absolute;
+                    width: 250px;
+                    height: 70px;
+                    top: 655px;
+                    left: 15px;
+                    border-radius: 12px;
+                    color: rgb(255, 255, 255);
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 29px;
+                    border: none;
+                }   
+                .circle1{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 100%;
+                    background-color: #DCDCDC;
+                    margin-left: 15px;
+                    position: absolute;
+                    margin-top: 650px ;
+                }
+                .mail{
+                    margin-left:26px;
+                    position: absolute;
+                    margin-top:663px ;
+                    fill: #ffffff;
+                }
+                .circle1:hover{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 100%;
+                    background-color: #a1a1a1;
+                    margin-left: 15px;
+                    position: absolute;
+                    margin-top: 650px ;
+                }
+                .Damian{
+                    display: none;
+                    margin-left: 1000px;
+                    margin-top: 50px;
+                    width: 500px;
+                    position :realtive;
+                    filter: grayscale(100%);
+                    visibility: collapse;
+                }
+                .fmail{
+                    position: absolute;
+                    margin-top: 685px ;
+                    margin-left:20px;
+                    width:100px;
+                    height:100px;
+                }
+
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .Damian{
+        margin-left: 500px;
+        margin-top: -2500px;
+        width: 50%;
+        position :realtive;
+        filter: grayscale(100%);
+    }
+    .landing h4{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 36px;
+        letter-spacing: 0.2em;
+        color: #A2A2A2;
+        }
+    .landing h1{
+            width: 545px;
+            font-family: Inter;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 55px;
+            line-height: 57px;
+            color: #000000;
+            margin-top: 13px;
+            }
+            .landing h3{
+                position: absolute;
+                width:500px;
+                height: 108px;
+                font-family: Inter;
+                font-style: normal;
+                font-weight: 500;
+                font-size:20px;
+                line-height:165%;
+                margin-top: 40px;
+                color: #727272;
+                } 
+                .menu ul li{
+                    text-align: right;
+                    padding-top:46px;
+                    padding-right: 34px;
+                }
+}
+.about{
+    margin-left: 68px;
+}
+.about h4{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 36px;
+letter-spacing: 0.1em;
+position: absolute;
+height: 30px;
+color: #A2A2A2;
+margin-top: 100px;
+}
+.about h1{
+position: absolute;
+height: 97px;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+line-height: 97px;
+color: #000000;
+margin-top: 140px;
+}
+.para1{
+    position: absolute;
+width: 650px;
+height: 242px;
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 44px;
+/* or 44px */
+margin-top: 250px;
+color: #727272;
+margin-left: 68px;
+}
+.para2{
+    position: absolute;
+  width: 650px;
+  height: 242px;
+  font-family: Inter;
+  font-style: normal;
+ font-weight: 500;
+font-size: 20px;
+line-height: 44px;
+/* or 44px */
+margin-top: 450px;
+color: #727272;
+margin-left: 68px;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    
+}
+.icons1{
+    margin-top: 650px;
+    margin-left: 68px;
+}
+.icons1 ul li{
+    list-style: none;
+}
+.icons1 ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+.first{
+    padding: 0px 25px;
+}
+.first1{
+    padding-left: 50px;
+    padding-right: 25px ;
+}
+.icons1 ul a{
+    color: #ffffff;
+}
+@media screen and (max-width: 480px){
+    .about{
+        margin-left: 15px;
+    }
+    .about h4{
+        position:absolute;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 36px;
+        letter-spacing: 0.1em;
+        position:relative;
+        height: 30px;
+        color: #A2A2A2;
+        margin-top: 750px;
+        }
+        .about h1{
+        position: absolute;
+        height: 97px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 97px;
+        color: #000000;
+        margin-top: -10px;
+        }
+        .para1{
+        position: absolute;
+        width: 325px;
+        height: 242px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        /* or 44px */
+        margin-top: 80px;
+        color: #727272;
+        margin-left: 15px;
+        }
+        .para2{
+            position: absolute;
+          width: 325px;
+          height: 242px;
+          font-family: Inter;
+          font-style: normal;
+         font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        /* or 44px */
+        margin-top: 230px;
+        color: #727272;
+        margin-left: 15px;
+        }
+        .social{
+            display: inline-block;
+            justify-content: space-between;
+            padding-bottom: 500px;
+            
+        }
+        .icons1{
+            margin-top: 360px;
+            margin-left: 15px;
+        }
+        .icons1 ul li{
+            list-style: none;
+        }
+        .icons1 ul li{
+            display: inline-block;
+            list-style-type: none;
+        }
+        .first{
+            padding: 0px 5px;
+        }
+        .first1{
+            padding-left: 5px;
+            padding-right: 5px ;
+        }
+        .icons1 ul a{
+            color: #ffffff;
+        }
+        .first1 img{
+            width: 60%;
+        }
+        .first img{
+            width: 60%;
+        }
+}
+.Experience{
+    margin-left: 68px;
+}
+.Experience h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    position: absolute;
+    height: 30px;
+    color: #A2A2A2;
+    margin-top: 100px;
+}
+.Experience h1{
+position: absolute;
+height: 97px;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+line-height: 97px;
+color: #000000;
+margin-top: 140px;
+}
+.timeline{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 36px;
+    width: 80%;
+    height: auto;
+    max-width: 0 auto;
+    margin-top: 300px;
+    margin-left: 68px;
+}
+.timeline ul{
+    list-style: none;
+}
+.timeline ul li{
+    padding: 20px;
+    margin-bottom:30px;
+}
+.timeline ul li h2{
+font-family: Inter;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 41px;
+color: #000000;
+}
+.timeline ul li h6{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    
+    color: #727272;
+}
+.timeline ul li p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size:18px;  
+    color: #565656;
+}
+.timeline::before{
+    content:'';
+    position: absolute;
+    height: 80%;
+    width:1px;
+    transform: translateX(-50%);
+    background-color: #565656;
+    opacity: 70%;
+}
+.timeline ul li:after{
+    margin-top: -98px;
+    left:61px;
+    content:"";
+    position: absolute;
+    height: 15px;
+    width:15px;
+    background-color: #000000;
+    border-radius: 50%;
+}
+.Download{
+position: absolute;
+width: 300px;
+height: 70px;
+top: 2775px;
+left: 1090px;
+background: #000000;
+border-radius: 12px;
+color: rgb(255, 255, 255);
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 29px;
+border: none;
+}
+.btn{
+    padding-bottom: 200px;
+}
+@media screen and (max-width: 480px){
+    .Experience{
+        margin-top: 300px;
+        margin-left: 15px;
+        margin-right: 0px;
+    }
+    .Experience h4{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 36px;
+        letter-spacing: 0.2em;
+        position: absolute;
+        height: 30px;
+        color: #A2A2A2;
+        margin-top: -700px;
+    }
+    .Experience h1{
+        position: absolute;
+        height: 97px;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 38px;
+        line-height: 97px;
+        color: #000000;
+        margin-top: -700px;
+    }
+    .timeline{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 36px;
+        width: 80%;
+        height: auto;
+        max-width: 0 auto;
+        margin-top: -550px;
+        margin-left:15px;
+    }
+    .timeline ul{
+        list-style: none;
+    }
+    .timeline ul li{
+        padding: 20px;
+        margin-bottom:30px;
+    }
+    .timeline ul li h2{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 41px;
+    color: #000000;
+    }
+    .timeline ul li h6{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        color: #727272;
+    }
+    .timeline ul li p{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: normal;
+        font-size:13px;  
+        line-height:25px;
+        width: 290px;
+        color: #565656;
+    }
+    .timeline::before{
+        content:'';
+        position: absolute;
+        height: 150%;
+        width:1px;
+        transform: translateX(-50%);
+        background-color: #565656;
+        opacity: 70%;
+    }
+    
+    .Download{
+        width: 250px;
+        height: 70px;
+        top: 2600px;
+        left: 55px;
+        background: #000000;
+        border-radius: 12px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 29px;
+        border: none;
+        }
+    .timeline ul li:after{
+            margin-top: -175px;
+            left:8px;
+            content:"";
+            position: absolute;
+            height: 15px;
+            width:15px;
+            background-color: #000000;
+            border-radius: 50%;
+    }
+
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .Download{
+        width: 250px;
+        height: 70px;
+        top: 2900px;
+        left: 55px;
+        background: #000000;
+        border-radius: 12px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 29px;
+        border: none;
+        }
+        .timeline::before{
+            content:'';
+            position: absolute;
+            height: 70%;
+            width:1px;
+            transform: translateX(-50%);
+            background-color: #565656;
+            opacity: 70%;
+        }
+        
+} 
+/*Projects Section*/
+.projects{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*height: 100vh;*/
+    font-family: Inter;
+    font-style: normal;
+}
+
+.projects .heading h1{
+    width: 380px;
+height: 97px;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+line-height: 97px;
+color: #000000;
+}
+.projects .heading{
+    align-self: flex-start;
+    margin-bottom: 3rem;
+    margin-left: 68px;
+}
+
+.projects .heading h4{
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: #A2A2A2;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    width: 403px;
+    height: 30px;
+    margin-top: 100px;
+}
+
+.cards-container{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.card-front, .card-back{
+    padding: 2rem;
+    margin: 1.5rem 0;
+    height: 425px;
+    width: 425px;
+    border-radius: 22px;
+    background-size: cover;
+    position: relative;
+    color: #fff;
+
+    -o-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.card{
+    padding: 20px;
+    justify-content: center;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    -o-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.card-back{
+    position: absolute;
+    top: 0;
+    -o-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.do-flip {
+    -o-transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+  }
+
+.card:nth-child(1) .card-front{
+    background-image: linear-gradient(to bottom,
+    rgba(0,0,0) 0%,
+    rgba(17,17,17,0.6) 80%), url('image/Rectangle.1.png');
+}
+
+.card:nth-child(2) .card-front{
+    background-image: linear-gradient(to bottom,
+    rgba(0,0,0) 0%,
+    rgba(17,17,17,0.6) 80%), url('image/Rectangle.2.png');
+}
+
+.card:nth-child(3) .card-front{
+    background-image: linear-gradient(to bottom,
+    rgba(0,0,0) 0%,
+    rgba(17,17,17,0.6) 80%), url('image/Rectangle.3.png');
+}
+
+.card:nth-child(4) .card-front{
+    background-image: linear-gradient(to bottom,
+    rgba(0,0,0) 0%,
+    rgba(17,17,17,0.6) 80%), url('image/Rectangle.4.png');
+}
+
+.card:nth-child(5) .card-front{
+    background-image: linear-gradient(to bottom,
+    rgba(0,0,0) 0%,
+    rgba(17,17,17,0.6) 80%), url('image/Rectangle.5.png');
+}
+
+.card:nth-child(6) .card-front{
+    background-image: linear-gradient(to bottom,
+    rgba(0,0,0) 0%,
+    rgba(17,17,17,0.6) 80%), url('image/Rectangle.6.png');
+}
+
+
+.card:nth-child(1) .card-back{
+    background-image: linear-gradient(to bottom,
+    rgba(0,0,0) 0%,
+    rgba(17,17,17,0.6) 200%), url('image/Rectangle.1.png');
+}
+
+.card:nth-child(2) .card-back{
+    background-image: linear-gradient(to bottom,
+    rgba(0,0,0) 0%,
+    rgba(17,17,17,0.6) 200%), url('image/Rectangle.2.png');
+}
+
+.card:nth-child(3) .card-back{
+    background-image: linear-gradient(to bottom,
+    rgba(0,0,0) 0%,
+    rgba(17,17,17,0.6) 200%), url('image/Rectangle.3.png');
+}
+
+.card:nth-child(4) .card-back{
+    background-image: linear-gradient(to bottom,
+    rgba(0,0,0) 0%,
+    rgba(17,17,17,0.6) 200%), url('image/Rectangle.4.png');
+}
+
+.card:nth-child(5) .card-back{
+    background-image: linear-gradient(to bottom,
+    rgba(0,0,0) 0%,
+    rgba(17,17,17,0.6) 200%), url('image/Rectangle.5.png');
+}
+
+.card:nth-child(6) .card-back{
+    background-image: linear-gradient(to bottom,
+    rgba(0,0,0) 0%,
+    rgba(17,17,17,0.6) 200%), url('image/Rectangle.6.png');
+}
+
+.projects h2{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    width: 70%;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 46px;
+    color: #FFFFFF;
+
+}
+
+.card-front p, .card-back p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #A2A2A2;
+}
+
+.card-back .content{
+    font-size: 15px;
+    width: 95%;
+}
+
+
+.card-back h2{
+    width: 90%;
+    font-size: 25px;
+}
+
+.card-front button, .card-back button{
+    padding: 30px 0;
+    border: none;
+    visibility: hidden;
+    background-color: transparent;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #A1A1A1;
+    cursor: pointer;
+}
+
+.card-front:hover{
+    transform: scale(1.075);
+    transition: 0.2s ease-in;
+}
+
+@media screen and (max-width: 480px) {
+    .projects{
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /*height: 100vh;*/
+        font-family: Inter;
+        font-style: normal;
+        margin-top: 100px;
+    }
+    
+    .projects .heading h1{
+        width: 180px;
+    height: 97px;
+    margin-top: -18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 97px;
+    color: #000000;
+    }
+    .projects .heading{
+        align-self: flex-start;
+        margin-top: 20px;
+        margin-bottom: 3rem;
+        margin-left: 15px;
+    }
+    
+    .projects .heading h4{
+        font-weight: normal;
+        font-size: 17px;
+        line-height: 36px;
+        color: #A2A2A2;
+        font-family: Inter;
+        font-style: normal;
+        letter-spacing: 0.1em;
+        width: 250px;
+        height: 30px;
+        margin-top: 70px;
+    }
+    .cards-container{
+        display: flex;
+        justify-content:space-around;
+        flex-wrap: wrap;
+        margin: 0;
+    }
+    
+    .card-front, .card-back{
+        padding: 2rem;
+        margin: 1.5rem 0;
+        height: 225px;
+        width: 225px;
+        border-radius: 22px;
+        background-size: cover;
+        position: relative;
+        color: #fff;
+    
+        -o-backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+    
+    .card{
+        margin-left: 15px;
+        padding: 12px;
+        justify-content: center;
+        -o-transition: all 1s ease-in-out;
+        -webkit-transition: all 1s ease-in-out;
+        -ms-transition: all 1s ease-in-out;
+        transition: all 1s ease-in-out;
+        -o-transform-style: preserve-3d;
+        -webkit-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+    }
+    
+    .card-back{
+        position: absolute;
+        top: 0;
+        -o-transform: rotateY(180deg);
+        -webkit-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+    
+    .do-flip {
+        -o-transform: rotateY(-180deg);
+        -webkit-transform: rotateY(-180deg);
+        -ms-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+      }
+    
+    .card:nth-child(1) .card-front{
+        background-image: linear-gradient(to bottom,
+        rgba(0,0,0) 0%,
+        rgba(17,17,17,0.6) 80%), url('image/Rectangle.1.png');
+    }
+    
+    .card:nth-child(2) .card-front{
+        background-image: linear-gradient(to bottom,
+        rgba(0,0,0) 0%,
+        rgba(17,17,17,0.6) 80%), url('image/Rectangle.2.png');
+    }
+    
+    .card:nth-child(3) .card-front{
+        background-image: linear-gradient(to bottom,
+        rgba(0,0,0) 0%,
+        rgba(17,17,17,0.6) 80%), url('image/Rectangle.3.png');
+    }
+    
+    .card:nth-child(4) .card-front{
+        background-image: linear-gradient(to bottom,
+        rgba(0,0,0) 0%,
+        rgba(17,17,17,0.6) 80%), url('image/Rectangle.4.png');
+    }
+    
+    .card:nth-child(5) .card-front{
+        background-image: linear-gradient(to bottom,
+        rgba(0,0,0) 0%,
+        rgba(17,17,17,0.6) 80%), url('image/Rectangle.5.png');
+    }
+    
+    .card:nth-child(6) .card-front{
+        background-image: linear-gradient(to bottom,
+        rgba(0,0,0) 0%,
+        rgba(17,17,17,0.6) 80%), url('image/Rectangle.6.png');
+    }
+    
+    
+    .card:nth-child(1) .card-back{
+        background-image: linear-gradient(to bottom,
+        rgba(0,0,0) 0%,
+        rgba(17,17,17,0.6) 200%), url('image/Rectangle.1.png');
+    }
+    
+    .card:nth-child(2) .card-back{
+        background-image: linear-gradient(to bottom,
+        rgba(0,0,0) 0%,
+        rgba(17,17,17,0.6) 200%), url('image/Rectangle.2.png');
+    }
+    
+    .card:nth-child(3) .card-back{
+        background-image: linear-gradient(to bottom,
+        rgba(0,0,0) 0%,
+        rgba(17,17,17,0.6) 200%), url('image/Rectangle.3.png');
+    }
+    
+    .card:nth-child(4) .card-back{
+        background-image: linear-gradient(to bottom,
+        rgba(0,0,0) 0%,
+        rgba(17,17,17,0.6) 200%), url('image/Rectangle.4.png');
+    }
+    
+    .card:nth-child(5) .card-back{
+        background-image: linear-gradient(to bottom,
+        rgba(0,0,0) 0%,
+        rgba(17,17,17,0.6) 200%), url('image/Rectangle.5.png');
+    }
+    
+    .card:nth-child(6) .card-back{
+        background-image: linear-gradient(to bottom,
+        rgba(0,0,0) 0%,
+        rgba(17,17,17,0.6) 200%), url('image/Rectangle.6.png');
+    }
+    
+    .projects h2{
+        padding-top: 5px;
+        padding-bottom: 10px;
+        width: 70%;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 17px;
+        line-height: 26px;
+        color: #FFFFFF;
+    
+    }
+    
+    .card-front p, .card-back p{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        color: #A2A2A2;
+    }
+    
+    .card-back .content{
+        font-size: 10px;
+        width: 95%;
+        line-height: 15px;
+    }
+    
+    
+    .card-back h2{
+        width: 90%;
+        font-size: 17px;
+    }
+    
+    .card-front button, .card-back button{
+        padding: 10px 0;
+        border: none;
+        visibility: hidden;
+        background-color: transparent;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        color: #A1A1A1;
+        cursor: pointer;
+    }
+    
+    .card-front:hover{
+        transform: scale(1.075);
+        transition: 0.2s ease-in;
+    }
+}
+.Contact{
+    padding-top: 170px;
+}
+.whole{
+    padding-top: 50px;
+    display: flex;
+ }
+ .containerinfo{
+    padding-left: 50px;
+ }
+ .Contact h5{
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight:500;
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    color: #A2A2A2;
+ }
+ .Contact h2{
+    margin-top: 0px;
+     text-align: center;
+     font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 97px;
+  margin-bottom: 20px;
+ }
+ .containerinfo h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+ }
+ .para{
+ font-family: Inter;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 18px;
+ line-height:28px;
+ width: 50%;
+ color: #727272;
+ }
+ .phone{
+    font-family: Inter;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 20px;
+ line-height: 24px;
+ 
+ color: #000000
+ }
+ .email{
+    font-family: Inter;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 20px;
+ line-height: 24px;
+ 
+ color: #000000
+ }
+ .email span{
+    font-family: Inter;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 20px;
+ line-height: 24px;
+ 
+ color: #727272;
+ }
+ .phone span{
+    font-family: Inter;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 20px;
+ line-height: 24px;
+ 
+ color: #727272;
+ }
+ .latestprojects{
+    padding-right: 260px;
+ }
+ .latestprojects h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+ }
+ .latestprojects ul li{
+    list-style: none;
+    text-align: left;
+    padding: 0px;
+    font-family: Inter;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 20px;
+ line-height: 24px;
+ 
+ color: #000000
+ }
+ .latestprojects ul{
+    padding-left: 0px;
+ }
+ .currentava h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 36px;
+    margin-bottom: 20px;
+    color: #000000;
+ }
+ .currentava p{
+    font-family: Inter;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 18px;
+ line-height:28px;
+ width: 50%;
+ color: #727272;
+ }
+ .follow{
+    padding-right:150px;
+ 
+ }
+ .follow h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 36px;
+    color: #000000;
+    width:100%;
+    margin-bottom: 20px;
+ }
+ .follow ul a{
+    text-decoration: none;
+    text-align: left;
+    padding: 0px;
+    font-family: Inter;
+ font-style: normal;
+ font-weight: normal;
+ font-size: 20px;
+ line-height: 24px;
+ color: black;
+ }
+ .follow ul{
+    padding-left: 0px;
+ }
+ .mail{
+    margin-top:30px;
+    margin-left: 50px;
+}
+.Up ul li{
+    text-align: right;
+    padding-right:50px;
+}
+.Up img{
+    padding-top: -200px;
+}
+ @media only screen and (max-width:480px){
+     body{
+         overflow-x: hidden;
+     }
+    .containerinfo{
+       padding-left: 5px;
+    }
+    .Contact h5{
+       text-align: center;
+       font-family: Inter;
+       font-style: normal;
+       font-size: 15px;
+       line-height: 36px;
+       letter-spacing: 0.1em;
+      color: #A2A2A2;
+      margin-bottom: 20px;
+   }
+   .Contact h2{
+     margin-top: 0px;
+       text-align: center;
+       font-family: Inter;
+       font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 50px;
+  }
+  .containerinfo h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  .para{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height:10px;
+    width: 50%;
+    color: #727272;
+    }
+    .email{
+       font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 24px;
+    
+    color: #000000
+    }
+    .email span{
+       font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 24px;
+    
+    color: #727272;
+    }
+    .phone span{
+       font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 24px;
+    
+    color: #727272;
+    }
+   .phone{
+       font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 24px;
+    
+    color: #000000
+    }
+    .latestprojects{
+       padding-right:50px;
+    }
+    .latestprojects h4{
+       font-family: Inter;
+       font-style: normal;
+       font-weight: bold;
+       font-size: 15px;
+       line-height: 18px;
+       color: #000000;
+       margin-bottom: 20px;
+    }
+    .latestprojects ul li{
+       list-style: none;
+       text-align: left;
+       padding-left: 0px;
+       font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 24px;
+    
+    color: #000000
+    }
+    .latestprojects ul{
+       padding-left: 0px;
+    }
+    .currentava h4{
+       font-family: Inter;
+       font-style: normal;
+       font-weight: bold;
+       font-size: 15px;
+       line-height:18px;
+       color: #000000;
+       margin-bottom: 20px;
+    }
+
+    .currentava p{
+       font-family: Inter;
+       font-style: normal;
+       font-weight: 500;
+       font-size: 8px;
+       line-height:10px;
+       width: 50%;
+       color: #727272;
+    }
+    .follow h4{
+       font-family: Inter;
+       font-style: normal;
+       font-weight: bold;
+       font-size: 15px;
+       line-height: 18px;
+       margin-bottom: 20px;
+       color: #000000;
+    }
+    .follow ul a{
+       text-decoration: none;
+       text-align: left;
+       padding: 0px;
+       font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 24px;
+    color: black;
+    }
+    .follow ul{
+       padding-left: 0px;
+    }
+    .follow{
+        padding-right: 10px;
+    }
+    .mail{
+        margin-top:30px;
+        margin-left: 50px;
+    }
+    .mail img{
+        width:50px;
+    }
+    .Up ul li{
+        text-align: right;
+        padding-top:30px;
+        padding-right:50px;
+    }
+    .Up ul li img{
+        width:50px;
+    }
+ }
+ @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    body{
+        overflow-x: hidden;
+    }
+   .containerinfo{
+      padding-left: 25px;
+   }
+   .Contact h5{
+      text-align: center;
+      font-family: Inter;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 36px;
+      letter-spacing: 0.1em;
+     color: #A2A2A2;
+     margin-bottom: 20px;
+  }
+  .Contact h2{
+    margin-top: 0px;
+      text-align: center;
+      font-family: Inter;
+      font-style: normal;
+     font-weight: bold;
+     font-size: 50px;
+     line-height: 50px;
+ }
+ .containerinfo h4{
+   font-family: Inter;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 20px;
+   line-height: 20px;
+   color: #000000;
+   margin-bottom: 20px;
+ }
+ .para{
+   font-family: Inter;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 15px;
+   line-height:20px;
+   width: 50%;
+   color: #727272;
+   }
+   .email{
+      font-family: Inter;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 24px;
+   
+   color: #000000
+   }
+   .email span{
+      font-family: Inter;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 24px;
+   
+   color: #727272;
+   }
+   .phone span{
+      font-family: Inter;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 24px;
+   
+   color: #727272;
+   }
+  .phone{
+      font-family: Inter;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 24px;
+   
+   color: #000000
+   }
+   .latestprojects{
+      padding-right:50px;
+   }
+   .latestprojects h4{
+      font-family: Inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 18px;
+      color: #000000;
+      margin-bottom: 20px;
+   }
+   .latestprojects ul li{
+      list-style: none;
+      text-align: left;
+      padding-left: 0px;
+      font-family: Inter;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 24px;
+   
+   color: #000000
+   }
+   .latestprojects ul{
+      padding-right: 60px;
+   }
+   .currentava h4{
+      font-family: Inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height:18px;
+      color: #000000;
+      margin-bottom: 20px;
+   }
+   .currentava p{
+      font-family: Inter;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height:20px;
+      width: 50%;
+      color: #727272;
+   }
+   .follow h4{
+      font-family: Inter;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 18px;
+      margin-bottom: 20px;
+      color: #000000;
+   }
+   .follow ul a{
+      text-decoration: none;
+      text-align: left;
+      padding: 0px;
+      font-family: Inter;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 24px;
+   color: black;
+   }
+   .follow ul{
+      padding-left: 0px;
+   }
+   .follow{
+       padding-right: 10px;
+   }
+   .mail{
+       margin-top:30px;
+       margin-left: 50px;
+   }
+   .mail img{
+       width:50px;
+   }
+   .Up ul li{
+       text-align: right;
+       padding-top:30px;
+       padding-right:50px;
+   }
+   .Up ul li img{
+       width:50px;
+   }
+ }
